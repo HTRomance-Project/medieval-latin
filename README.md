@@ -1,4 +1,4 @@
-HTRomance: Corpus ???
+HTRomance: Medieval Latin Manuscripts
 =====================
 ![characters badge](badges/characters.svg) ![regions badge](badges/regions.svg) ![lines badge](badges/lines.svg) ![files badge](badges/files.svg)
 
@@ -6,7 +6,15 @@ HTRomance: Corpus ???
 
 ## Introduction
 
+This ground-truth dataset has been carefully built around the idea of having generic data for building a strong and reliable model for HTR of Latin manuscripts. Each manuscript should have around 10 columns (5 bi-columns pages or 10 pages of single column).
+
+Data follow the Segmonto guidelines.
+
 ## Credits
+
+- Transcriptions: Anthony Glaise.
+- Supervision and manuscript selection: Thibault Clérice, Federic Boschetti, Franz Fischer.
+- Project management: Thibault Clérice & Alix Chagué.
 
 <!-- Rien ne doit être modifié manuellement après la balise Start Auto -->
 
