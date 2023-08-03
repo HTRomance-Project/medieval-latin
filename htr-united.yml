@@ -1,60 +1,128 @@
-schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-title: HTRomance - Medieval Latin Manuscripts
-url: https://github.com/HTRomance-Project/medieval-latin
 authors:
-  - name: Anthony
-    surname: Glaise
-    orcid: 0000-0003-4715-5184
-    roles:
-      - transcriber
-  - name: Thibault
-    surname: Clérice
-    orcid: 0000-0003-1852-9204
-    roles:
-      - project-manager
-      - quality-control
-  - name: Alix
-    surname: Chagué
-    orcid: 0000-0002-0136-4434
-    roles:
-      - project-manager
-  - name: Federico
-    surname: Boschetti
-    orcid: 0000-0002-7810-7735
-    roles:
-      - project-manager
-  - name: Franz
-    surname: Fischer
-    orcid: 0000-0002-2162-5531
-    roles:
-      - project-manager
-institutions: []
+- name: Anthony
+  orcid: 0000-0003-4715-5184
+  roles:
+  - transcriber
+  surname: Glaise
+- name: Thibault
+  orcid: 0000-0003-1852-9204
+  roles:
+  - project-manager
+  - quality-control
+  surname: Clérice
+- name: Alix
+  orcid: 0000-0002-0136-4434
+  roles:
+  - project-manager
+  surname: Chagué
+- name: Federico
+  orcid: 0000-0002-7810-7735
+  roles:
+  - project-manager
+  surname: Boschetti
+- name: Franz
+  orcid: 0000-0002-2162-5531
+  roles:
+  - project-manager
+  surname: Fischer
+automatically-aligned: false
+characters:
+  members:
+  - i
+  - e
+  - ̃
+  - t
+  - a
+  - u
+  - s
+  - o
+  - c
+  - r
+  - d
+  - n
+  - l
+  - p
+  - m
+  - q
+  - .
+  - ̾
+  - b
+  - f
+  - 
+  - g
+  - ꝰ
+  - x
+  - ͥ
+  - h
+  - ꝑ
+  - ᷑
+  - ꝙ
+  - ⁊
+  - ͣ
+  - ł
+  - ꝵ
+  - /
+  - N
+  - ħ
+  - ꝓ
+  - ͦ
+  - ^
+  - ẜ
+  - C
+  - ͨ
+  - I
+  - ꝗ
+  - '1'
+  - y
+  - ¶
+  - L
+  - ꝯ
+  - '0'
+  - '2'
+  - D
+  - T
+  - S
+  - A
+  - Q
+  - M
+  - E
+  - ᷤ
+  - ͤ
+  - F
+  - ':'
+  - R
+  - ͫ
+  - G
+  - U
+  - '9'
+  - +
+  - '3'
+  mode: NFD
 description: >-
   Ground truth of Latin medieval manuscripts. Manuscripts vary in themes,
   period, etc. Most manuscript have at most 10 columns transcribed.
-project-name: HTRomance
-project-website: https://htromance-project.github.io
-language:
-  - lat
-production-software: eScriptorium + Kraken
-automatically-aligned: false
-script:
-  - iso: Latn
-script-type: only-manuscript
-time:
-  notBefore: '1100'
-  notAfter: '1499'
+format: Alto-XML
 hands:
   count: 1-per-folder
   precision: estimated
+institutions: []
+language:
+- lat
 license:
-  - name: CC-BY 4.0
-    url: https://creativecommons.org/licenses/by/4.0/
-format: Alto-XML
-volume:
-  - metric: lines
-    count: 1
-transcription-guidelines: >-
+- name: CC-BY 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+production-software: eScriptorium + Kraken
+project-name: HTRomance
+project-website: https://htromance-project.github.io
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1499'
+  notBefore: '1100'
+title: HTRomance - Medieval Latin Manuscripts
+transcription-guidelines: >2-
 
   The transcription guidelines are described in a paper available on
   [HAL](https://hal-enc.archives-ouvertes.fr/hal-03828353) and published at the
@@ -63,3 +131,13 @@ transcription-guidelines: >-
   about output (mainly the [Generic CREMMA Model for Medieval Manuscripts (Latin
   and Old French)](https://zenodo.org/record/7234166#.Y7f69afMJhE) for
   [Kraken](https://kraken.re))
+url: https://github.com/HTRomance-Project/medieval-latin
+volume:
+- count: 13712
+  metric: characters
+- count: 5
+  metric: files
+- count: 580
+  metric: lines
+- count: 81
+  metric: regions
