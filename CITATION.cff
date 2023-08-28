@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: HTRomance - Medieval Latin Manuscripts
+title: HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation
 message: >-
   If you use this dataset, please cite it using the
   metadata from this file.
@@ -16,17 +16,17 @@ authors:
     email: thibault.clerice@chartes.psl.eu
     affiliation: Centre Jean Mabillon
     orcid: 'https://orcid.org/0000-0003-1852-9204'
-  - given-names: 'Alix'
-    family-names: Chagué
-    orcid: 'https://orcid.org/0000-0002-0136-4434'
-    affiliation: 'Inria, Université de Montréal'
-    email: alix.chague@inria.fr
   - given-names: Federico
     family-names: Boschetti
     orcid: "https://orcird.org/0000-0002-7810-7735"
   - given-names: Franz
     family-names: Fischer
     orcid: "https://orcird.org/0000-0002-2162-5531"
+  - given-names: 'Alix'
+    family-names: Chagué
+    orcid: 'https://orcid.org/0000-0002-0136-4434'
+    affiliation: 'Inria, Université de Montréal'
+    email: alix.chague@inria.fr
 repository-code: 'https://github.com/HTRomance-Project/medieval-latin'
 keywords:
   - HTR

@@ -121,7 +121,7 @@ script-type: only-manuscript
 time:
   notAfter: '1499'
   notBefore: '1100'
-title: HTRomance - Medieval Latin Manuscripts
+title: HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation
 transcription-guidelines: >2-
 
   The transcription guidelines are described in a paper available on

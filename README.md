@@ -10,6 +10,10 @@ This ground-truth dataset has been carefully built around the idea of having gen
 
 Data follow the Segmonto guidelines.
 
+> [!NOTE]
+> The repository contains two XML files per image. The ones suffixed with `.chocomufin.xml` are normalized in order to be compliant with other datasets following the same guidelines. The others are more specific to this repository. We recommend using the normalized documents.
+
+
 ## Credits
 
 - Transcriptions: Anthony Glaise.
@@ -22,18 +26,22 @@ Data follow the Segmonto guidelines.
 
 ## Transcription guidelines
 
-The transcription guidelines are described in a paper available on [HAL](https://hal-enc.archives-ouvertes.fr/hal-03828353) and published at the Journal for Open Humanities Data. It provides specific details about the selection process, the transcription methods and choices, as well as details about output (mainly the [Generic CREMMA Model for Medieval Manuscripts (Latin and Old French)](https://zenodo.org/record/7234166#.Y7f69afMJhE) for [Kraken](https://kraken.re))
+The transcription guidelines are described in a paper available on [HAL](https://hal-enc.archives-ouvertes.fr/hal-03828353) and published in the Journal for Open Humanities Data. The paper provides specific details about the selection process, the transcription methods and choices, as well as details about the output (mainly the [Generic CREMMA Model for Medieval Manuscripts (Latin and Old French)](https://zenodo.org/record/7234166#.Y7f69afMJhE) for [Kraken](https://kraken.re))
 
 ## Data
 
-ALTO and images can be found in the directory data. Each subfolder of data corresponds to a 
-single manuscript, identified by its bookshelf.
+ALTO and images can be found in the directory called `data/`. Each subfolder of `data/` corresponds to a 
+single manuscript, identified by its shelfmark.
 
 <!-- BeginTable -->
 
-| Shelfmark                                                         | Folder                                   | Biblissima   | Range     | Type   |   Century | Color   |   Main Zones |   Lines |   Characters | Genre   | Content                       |
-|-------------------------------------------------------------------|------------------------------------------|--------------|-----------|--------|-----------|---------|--------------|---------|--------------|---------|-------------------------------|
-| [BnF Latin 7720](https://gallica.bnf.fr/ark:/12148/btv1b8446940n) | [🔗](medieval-latin/data/bnf-latin-7720) |              | 100v-102v | prose  |        14 | ✓       |           10 |     580 |        13711 | prose   | Quintilien, Inst. 11.2.44 seq |
+| Shelfmark                                                                                     | Folder                                                 | Biblissima                                    | Range               | Type   |   Century | Color   |   Main Zones |   Lines |   Characters | Genre              | Content                                                                                                                                                                                                                                                                                                                         |
+|-----------------------------------------------------------------------------------------------|--------------------------------------------------------|-----------------------------------------------|---------------------|--------|-----------|---------|--------------|---------|--------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Latin 5657](https://gallica.bnf.fr/ark:/12148/btv1b10039103d)                                | [🔗](../htromance/medieval-latin/data/latin-5657)      | [→](https://data.biblissima.fr/entity/Q64650) | 42v,36v-37r,46v-47r | prose  |        13 | ✗       |           13 |     152 |         7253 | Cartulaire         | Charte de Renaud Musavène (f42v); Don d'une maison par Mathieu II (f36v); Philippe de Beaumont & Don de la mairie de Champagne par Jehan (f37r); Don d'Hémery Aladent (fin), (?), Bouchard VI de Montmorency (46v); Le Culte de Saint Guillaume établi à Pontoise, Concession par l'abbé de S. Denis du fief de Teleuse (f47r); |
+| [BnF Latin 16204](https://gallica.bnf.fr/ark:/12148/btv1b52504905c)                           | [🔗](../htromance/medieval-latin/data/bnf-latin-16204) |                                               | 333-337             | prose  |        13 | ✓       |           10 |     462 |        15854 | prose (astrologie) | Albumasar, Tractatus revolutione annorum mundi (De Experimentis); Albumasar, Flores                                                                                                                                                                                                                                             |
+| [BnF NAL 775](https://gallica.bnf.fr/ark:/12148/btv1b52509205f)                               | [🔗](../htromance/medieval-latin/data/bnf-nal-775)     |                                               | 91r-93r             | prose  |        14 | ✓       |           10 |     491 |        14723 | prose              | Legenda aurea, De sancto Petro martyre, De sancto Philippo apostolo, De sancto Iacobo apostolo                                                                                                                                                                                                                                  |
+| [BnF Latin 7720](https://gallica.bnf.fr/ark:/12148/btv1b8446940n)                             | [🔗](../htromance/medieval-latin/data/bnf-latin-7720)  |                                               | 100v-102v           | prose  |        14 | ✓       |           10 |     580 |        13711 | prose              | Quintilien, Inst. 11.2.44 seq                                                                                                                                                                                                                                                                                                   |
+| [BnF Latin 6337](https://gallica.bnf.fr/ark:/12148/btv1b8452769g/f185.item.r=cicero%20cicero) | [🔗](../htromance/medieval-latin/data/bnf-latin-6337)  |                                               | 1r-5v               | prose  |        16 | ✓       |            3 |     176 |         7779 | prose              | Tusculanarum quaestionum libri quinque                                                                                                                                                                                                                                                                                          |
 
 <!-- EndTable -->
 
@@ -43,24 +51,25 @@ single manuscript, identified by its bookshelf.
 
 ### Regions
 
-- MarginTextZone (57)
-- MainZone (10)
-- RunningTitleZone (3)
-- DropCapitalZone (1)
-- GraphicZone (5)
-- NumberingZone (5)
+- MainZone (46)
+- NumberingZone (39)
+- MarginTextZone (74)
+- DropCapitalZone (9)
+- GraphicZone (6)
+- StampZone (1)
+- RunningTitleZone (13)
 
 ### Lines
 
-- DefaultLine (574)
-- HeadingLine (6)
+- DefaultLine (1841)
+- HeadingLine (20)
 
 <!-- EndMetric -->
 
 ## Funding
 
 This project was funded by the Bibliothèque nationale de France through the 2022 project calls from
-[Datalab](https://www.bnf.fr/fr/bnf-datalab).
+[Datalab](https://www.bnf.fr/fr/bnf-datalab) for 2023.
 
 ## Citer le projet
 
@@ -68,5 +77,5 @@ ToDo.
 
 ## Infrastructure
 
-This project was produced through the [CREMMA infrastructure](https://www.dim-map.fr/projets-soutenus/cremma/).
+This project relied on the [CREMMA infrastructure](https://www.dim-map.fr/projets-soutenus/cremma/).
 
