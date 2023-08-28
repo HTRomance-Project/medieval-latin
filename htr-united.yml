@@ -30,73 +30,97 @@ characters:
   members:
   - i
   - e
-  - ̃
   - t
   - a
   - u
   - s
   - o
-  - c
-  - r
-  - d
   - n
+  - ̃
+  - r
+  - c
+  - m
+  - d
   - l
   - p
-  - m
-  - q
   - .
-  - ̾
   - b
+  - q
+  - ̾
   - f
-  - 
   - g
-  - ꝰ
+  - 
   - x
-  - ͥ
   - h
-  - ꝑ
-  - ᷑
-  - ꝙ
   - ⁊
-  - ͣ
+  - ꝰ
+  - ꝑ
   - ł
   - ꝵ
-  - /
-  - N
-  - ħ
-  - ꝓ
-  - ͦ
-  - ^
-  - ẜ
-  - C
-  - ͨ
-  - I
-  - ꝗ
-  - '1'
-  - y
-  - ¶
-  - L
+  - ͥ
+  - ᷑
+  - ꝙ
   - ꝯ
-  - '0'
-  - '2'
-  - D
-  - T
-  - S
-  - A
-  - Q
-  - M
-  - E
-  - ᷤ
-  - ͤ
-  - F
+  - ͣ
   - ':'
-  - R
+  - ͦ
+  - '-'
+  - ¶
+  - C
+  - y
+  - N
+  - S
+  - ħ
+  - E
+  - I
+  - ꝓ
+  - Q
   - ͫ
-  - G
+  - D
+  - ᷤ
+  - /
+  - A
+  - M
+  - R
   - U
-  - '9'
-  - +
+  - L
+  - ̧
+  - z
+  - T
+  - ^
+  - ͨ
+  - ẜ
   - '3'
+  - ꝗ
+  - '&'
+  - ÷
+  - P
+  - H
+  - ͭ
+  - ͤ
+  - G
+  - O
+  - '*'
+  - +
+  - '1'
+  - Ø
+  - '2'
+  - '7'
+  - '4'
+  - F
+  - '0'
+  - '9'
+  - ͧ
+  - B
+  - ᷠ
+  - ᷝ
+  - X
+  - ᵈ
+  - '5'
+  - ¬
+  - '8'
+  - '6'
+  - k
   mode: NFD
 description: >-
   Ground truth of Latin medieval manuscripts. Manuscripts vary in themes,
@@ -121,7 +145,8 @@ script-type: only-manuscript
 time:
   notAfter: '1499'
   notBefore: '1100'
-title: HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition and Layout Segmentation
+title: HTRomance, Medieval Latin corpus of ground-truth for Handwritten Text Recognition
+  and Layout Segmentation
 transcription-guidelines: >2-
 
   The transcription guidelines are described in a paper available on
@@ -133,11 +158,11 @@ transcription-guidelines: >2-
   [Kraken](https://kraken.re))
 url: https://github.com/HTRomance-Project/medieval-latin
 volume:
-- count: 13712
+- count: 59295
   metric: characters
-- count: 5
+- count: 21
   metric: files
-- count: 580
+- count: 1861
   metric: lines
-- count: 81
+- count: 188
   metric: regions
