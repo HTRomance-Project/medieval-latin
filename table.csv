@@ -2,6 +2,10 @@ char,name,replacement,codepoint,mufidecode,ontographe,order
 #r#l’,LATIN SMALL LETTER L WITH STROKE,ł,,,l ,0
 #r#s̵,S STROKE TO Single letter,ẜ,,,s,
 #r#s̶,S STROKE TO Single letter,ẜ,,,s,
+#r#\[\[,Squares,⟦,,,⟦,0
+#r#\]\],Squares,⟧,,,⟧,0
+⟦,MATHEMATICAL LEFT WHITE SQUARE BRACKET,⟦,,,⟦,0
+⟧,MATHEMATICAL RIGHT WHITE SQUARE BRACKET,⟧,,,⟧,0
 V,LATIN CAPITAL LETTER V,U,,,U,0
 v,LATIN SMALL LETTER V,u,,,u,0
 J,LATIN CAPITAL LETTER V,I,,,I,0
