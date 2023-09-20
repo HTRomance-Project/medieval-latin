@@ -22,7 +22,7 @@
           
           <TextLine ID="line_1" TAGREFS="LT2915" BASELINE="332 623 388 623" HPOS="332" VPOS="550" WIDTH="56" HEIGHT="106">
             <Shape><Polygon POINTS="332 623 332 656 388 653 388 623 385 550 332 550 332 623"/></Shape>
-	    <String CONTENT="nõ" HPOS="332" VPOS="550" WIDTH="56" HEIGHT="106"/>
+	    <String CONTENT="noͣ" HPOS="332" VPOS="550" WIDTH="56" HEIGHT="106"/>
           </TextLine>
 
           
@@ -50,7 +50,7 @@
           
           <TextLine ID="line_4" TAGREFS="LT2915" BASELINE="311 984 803 978" HPOS="304" VPOS="935" WIDTH="495" HEIGHT="75">
             <Shape><Polygon POINTS="746 935 702 935 658 935 613 935 569 935 525 935 481 935 437 935 393 935 348 935 304 935 309 979 309 1010 799 997 799 975 786 935 746 935"/></Shape>
-	    <String CONTENT="hns luas ce ꝙ iniciũ ÷ ĩ poᷠ" HPOS="304" VPOS="935" WIDTH="495" HEIGHT="75"/>
+	    <String CONTENT="hns luas eo ꝙ iniciũ ÷ ĩ poᷠ" HPOS="304" VPOS="935" WIDTH="495" HEIGHT="75"/>
           </TextLine>
 
           
@@ -64,7 +64,7 @@
           
           <TextLine ID="line_6" TAGREFS="LT2915" BASELINE="301 1093 794 1072" HPOS="295" VPOS="1028" WIDTH="495" HEIGHT="84">
             <Shape><Polygon POINTS="737 1032 693 1032 649 1032 605 1032 560 1032 516 1032 472 1032 428 1032 384 1032 340 1032 335 1028 295 1028 300 1090 300 1112 790 1094 790 1068 781 1032 737 1032"/></Shape>
-	    <String CONTENT="Si intllĩgit᷑ ++ inciᵈ ͦdoꝰ" HPOS="295" VPOS="1028" WIDTH="495" HEIGHT="84"/>
+	    <String CONTENT="Si intllĩgit᷑ ceͣ inciᵈ ͦdoꝰ" HPOS="295" VPOS="1028" WIDTH="495" HEIGHT="84"/>
           </TextLine>
 
           
@@ -174,7 +174,7 @@
           
           <TextLine ID="line_23" TAGREFS="LT2915" BASELINE="727 1379 793 1380" HPOS="724" VPOS="1293" WIDTH="66" HEIGHT="194">
             <Shape><Polygon POINTS="724 1376 724 1482 786 1487 790 1376 790 1301 724 1293 724 1376"/></Shape>
-	    <String CONTENT="nõ" HPOS="724" VPOS="1293" WIDTH="66" HEIGHT="194"/>
+	    <String CONTENT="noͣ" HPOS="724" VPOS="1293" WIDTH="66" HEIGHT="194"/>
           </TextLine>
 
           

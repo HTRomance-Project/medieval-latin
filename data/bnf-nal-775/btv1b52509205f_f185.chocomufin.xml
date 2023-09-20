@@ -495,7 +495,7 @@
           
           <TextLine ID="line_63" TAGREFS="LT2903" BASELINE="1464 1396 2380 1402" HPOS="1461" VPOS="1355" WIDTH="919" HEIGHT="71">
             <Shape><Polygon POINTS="1464 1396 1461 1426 2378 1424 2380 1402 2378 1357 1464 1355 1464 1396"/></Shape>
-	    <String CONTENT="qu cotidie pro quolib dieca .C. pr̃ nr̃ ad" HPOS="1461" VPOS="1355" WIDTH="919" HEIGHT="71"/>
+	    <String CONTENT="⟦qu⟧ cotidie pro quolib dieca .C. pr̃ nr̃ ad" HPOS="1461" VPOS="1355" WIDTH="919" HEIGHT="71"/>
           </TextLine>
 
           

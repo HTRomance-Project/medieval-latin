@@ -127,7 +127,7 @@
           
           <TextLine ID="line_16" TAGREFS="LT2915" BASELINE="803 1629 1858 1635" HPOS="800" VPOS="1562" WIDTH="1058" HEIGHT="112">
             <Shape><Polygon POINTS="803 1629 800 1659 1852 1674 1858 1635 1855 1582 1557 1565 1554 1565 1363 1577 1330 1562 1328 1562 1325 1562 803 1574 803 1629"/></Shape>
-	    <String CONTENT="quo fu̾it saturnꝰ lũa. donacõnes ⁊ subti" HPOS="800" VPOS="1562" WIDTH="1058" HEIGHT="112"/>
+	    <String CONTENT="quo fu̾it ⟦saturnꝰ⟧ lũa. donacõnes ⁊ subti" HPOS="800" VPOS="1562" WIDTH="1058" HEIGHT="112"/>
           </TextLine>
 
           
