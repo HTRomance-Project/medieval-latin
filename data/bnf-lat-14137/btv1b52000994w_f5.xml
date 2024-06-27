@@ -162,7 +162,7 @@
                     WIDTH="619"
                     HEIGHT="71">
             <Shape><Polygon POINTS="393 948 390 965 1006 965 1009 948 1006 899 393 894 393 948"/></Shape>
-	    <String CONTENT="Doctis iupiter ⁊ laboriosis. . ał. mei"
+	    <String CONTENT="Doctis iupiter ⁊ laboriosis."
                     HPOS="390"
                     VPOS="894"
                     WIDTH="619"
@@ -179,7 +179,7 @@
                     WIDTH="97"
                     HEIGHT="78">
             <Shape><Polygon POINTS="1020 975 1114 975 1117 967 1117 902 1022 897 1022 962"/></Shape>
-	    <String CONTENT=""
+	    <String CONTENT="ał. mei"
                     HPOS="1020"
                     VPOS="897"
                     WIDTH="97"
