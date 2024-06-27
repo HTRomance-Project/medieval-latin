@@ -461,7 +461,7 @@
           
           <TextLine ID="eSc_line_a38bd40e" TAGREFS="LT3211" BASELINE="1853 2394 3223 2394" HPOS="1853.0" VPOS="2323.0" WIDTH="1370.0" HEIGHT="125.0">
             <Shape><Polygon POINTS="1853 2394 1853 2448 3223 2436 3223 2394 3223 2329 1853 2323 1853 2394"/></Shape>
-	    <String CONTENT="¶Ante meos oculos presto est tua sẽꝑ ymago" HPOS="1853.0" VPOS="2323.0" WIDTH="1370.0" HEIGHT="125.0"/>
+	    <String CONTENT="¶Ante meos oculos presto est tua sẽꝑ ỹmago" HPOS="1853.0" VPOS="2323.0" WIDTH="1370.0" HEIGHT="125.0"/>
           </TextLine>
 
           

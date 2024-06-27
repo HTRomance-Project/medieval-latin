@@ -1867,7 +1867,7 @@
           
           <TextLine ID="eSc_line_ad165f3e" TAGREFS="LT1816" BASELINE="7535 4919 8992 4908" HPOS="7531.0" VPOS="4848.0" WIDTH="1461.0" HEIGHT="115.0">
             <Shape><Polygon POINTS="7690 4864 7651 4864 7611 4864 7571 4864 7531 4864 7535 4919 7535 4963 8988 4943 8992 4908 8980 4848 7710 4860 7690 4864"/></Shape>
-	    <String CONTENT="rome prohibito. et rege syus alexandro lxxui" HPOS="7531.0" VPOS="4848.0" WIDTH="1461.0" HEIGHT="115.0"/>
+	    <String CONTENT="rome prohibito. et rege sỹus alexandro lxxui" HPOS="7531.0" VPOS="4848.0" WIDTH="1461.0" HEIGHT="115.0"/>
           </TextLine>
 
           
