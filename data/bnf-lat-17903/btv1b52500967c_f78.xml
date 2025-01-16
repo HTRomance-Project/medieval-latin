@@ -1237,13 +1237,13 @@
           
           
           <TextLine ID="eSc_line_5056c5a9"
-                    
+                    TAGREFS="LT3211"
                     BASELINE="2506 2831 3592 2820" 
                     HPOS="2499"
                     VPOS="2751"
                     WIDTH="1088"
                     HEIGHT="128">
-            <Shape><Polygon POINTS="2504 2830 2504 2879 3582 2869 3587 2815 3577 2751 2499 2751 2504 2830"/></Shape>
+            <Shape><Polygon POINTS="2504 2879 3582 2869 3587 2815 3577 2751 2499 2751 2504 2830"/></Shape>
 	    <String CONTENT="Grandiꝰ ingenio nec tibi nom̃ inest."
                     HPOS="2499"
                     VPOS="2751"
@@ -1278,7 +1278,7 @@
                     WIDTH="1081.0"
                     HEIGHT="110.0">
             <Shape><Polygon POINTS="2508 3013 2508 3048 3582 3048 3585 2996 3576 2938 2504 2954 2508 3013"/></Shape>
-	    <String CONTENT="Tĩcta q mordaci spicula felle gerãt"
+	    <String CONTENT="Dĩcta q mordaci spicula felle gerãt"
                     HPOS="2504.0"
                     VPOS="2938.0"
                     WIDTH="1081.0"
