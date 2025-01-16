@@ -97,8 +97,8 @@ characters:
   - ⟦
   - ⟧
   - "'"
-  - z
   - ᷤ
+  - z
   - B
   - G
   - '4'
@@ -192,7 +192,7 @@ transcription-guidelines: >2-
   [Kraken](https://kraken.re))
 url: https://github.com/HTRomance-Project/medieval-latin
 volume:
-- count: 299062
+- count: 299067
   metric: characters
 - count: 142
   metric: files
